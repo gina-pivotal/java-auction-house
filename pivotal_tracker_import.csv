@@ -1,0 +1,27 @@
+Id,Title,Labels,Iteration,Iteration Start,Iteration End,Type,Estimate,Current State,Created at,Accepted at,Deadline,Requested By,Description,URL,Owned By
+107569156,English auction,"",1,"Dec 28, 2015","Jan 3, 2016",feature,,unstarted,"Apr 9, 2015",,,Nick Street,"A user should be able to create a English auction. In an [English auction](http://en.wikipedia.org/wiki/English_auction):
+ - The auction starts with a suggested opening bid
+ - Bids must be higher than the current ""standing"" bid
+ - Users can see other users bids
+ - There are multiple rounds
+ - The auction finishes when everybody passes in a round
+ - The winner is decided by the highest bid
+ - The winning value is the highest bid",https://www.pivotaltracker.com/story/show/107569156,
+107569158,Vickrey auction,"",1,"Dec 28, 2015","Jan 3, 2016",feature,,unstarted,"Apr 9, 2015",,,Nick Street,"A user should be able to create a Vickrey auction. In a [Vickrey auction](http://en.wikipedia.org/wiki/Vickrey_auction):
+ - The auction starts with a suggested opening bid
+ - Bids must be higher than the opening bid
+ - Users cannot see other users bids (assuming they cannot see previous lines in CLI)
+ - There are multiple rounds
+ - The auction finishes when everybody passes in a round
+ - The winner is decided by the highest bid
+ - The winning value is the second highest bid
+",https://www.pivotaltracker.com/story/show/107569158,
+107569160,Dutch auction,"",1,"Dec 28, 2015","Jan 3, 2016",feature,,unstarted,"Apr 9, 2015",,,Nick Street,"A user should be able to create a Dutch auction. In a [Dutch auction](http://en.wikipedia.org/wiki/Dutch_auction):
+ - There are multiple rounds, 
+ - In each round, a price is offered to players, initially using the starting price, and then counting down on each subsequent round
+ - Players can either accept the offered price, or pass
+ - The winner is the first player to accept an offer
+ - The winning value is the accepted price",https://www.pivotaltracker.com/story/show/107569160,
+107569162,Fixed Price Computer bidder,"",1,"Dec 28, 2015","Jan 3, 2016",feature,,unstarted,"Apr 9, 2015",,,Nick Street,"A user should be able to create a auction with a fixed price computer bidder. A fixed price computer bidder will only make one bid at the specified value as soon as possible.
+",https://www.pivotaltracker.com/story/show/107569162,
+107569164,Multiply Price Computer bidder,"",1,"Dec 28, 2015","Jan 3, 2016",feature,,unstarted,"Apr 9, 2015",,,Nick Street,"A user should be able to create a auction with a Multiply Price computer bidder. A Multiply Price computer bidder will multiply the value of any previously seen bids by a specified factor until all previous bidders have passed in the current round. If the auction is blind, it should attempt to multiply the starting price.",https://www.pivotaltracker.com/story/show/107569164,
